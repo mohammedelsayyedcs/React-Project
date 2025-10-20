@@ -10,7 +10,8 @@ function App() {
   return (
     <>
       <Header />
-      <TestClass />
+      <TestClass currency={'EGP'} />
+      {/* <TestClass currency={'USD'} /> */}
       <Footer />
     </>
   )
